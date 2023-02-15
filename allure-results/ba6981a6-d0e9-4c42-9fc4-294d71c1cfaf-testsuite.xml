@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676257381058' stop='1676257381062'>
+    <name>Open Google: Verify url match</name>
+    <title>Open Google: Verify url match</title>
+    <test-cases>
+        <test-case start='1676257381059' status='passed' stop='1676257381059'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676257381059' status='broken' stop='1676257381062'>
+            <name>Given I open the Adobe page</name>
+            <title>Given I open the Adobe page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'client')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'client')
+                    at World.&lt;anonymous> (/Users/black_mac/Code/Environments/portfolio/test/wdio_tests/src/step-definitions/sample-steps.ts:5:20)
+                    at Generator.next (&lt;anonymous>)
+                    at /Users/black_mac/Code/Environments/portfolio/test/wdio_tests/src/step-definitions/sample-steps.ts:8:71
+                    at new Promise (&lt;anonymous>)
+                    at __awaiter (/Users/black_mac/Code/Environments/portfolio/test/wdio_tests/src/step-definitions/sample-steps.ts:4:12)
+                    at World.&lt;anonymous> (/Users/black_mac/Code/Environments/portfolio/test/wdio_tests/src/step-definitions/sample-steps.ts:14:12)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async wrapPromiseWithTimeout (/Users/black_mac/Code/Environments/portfolio/test/wdio_tests/node_modules/@cucumber/cucumber/src/time.ts:63:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676257381062' status='pending' stop='1676257381062'>
+            <name>Then I should see the url</name>
+            <title>Then I should see the url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676257381062' status='passed' stop='1676257381062'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

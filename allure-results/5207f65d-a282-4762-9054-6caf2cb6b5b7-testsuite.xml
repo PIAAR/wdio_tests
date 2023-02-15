@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676318926542' stop='1676318926546'>
+    <name>Open Google: Verify url match</name>
+    <title>Open Google: Verify url match</title>
+    <test-cases>
+        <test-case start='1676318926543' status='passed' stop='1676318926543'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676318926543' status='broken' stop='1676318926545'>
+            <name>Given I open the Google page</name>
+            <title>Given I open the Google page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'url')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'url')
+                    at World.&lt;anonymous> (/Users/black_mac/Code/Environments/portfolio/test/wdio_tests/src/step-definitions/sample-steps.ts:4:36)
+                    at Generator.next (&lt;anonymous>)
+                    at /Users/black_mac/Code/Environments/portfolio/test/wdio_tests/src/step-definitions/sample-steps.ts:8:71
+                    at new Promise (&lt;anonymous>)
+                    at __awaiter (/Users/black_mac/Code/Environments/portfolio/test/wdio_tests/src/step-definitions/sample-steps.ts:4:12)
+                    at World.&lt;anonymous> (/Users/black_mac/Code/Environments/portfolio/test/wdio_tests/src/step-definitions/sample-steps.ts:14:12)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async wrapPromiseWithTimeout (/Users/black_mac/Code/Environments/portfolio/test/wdio_tests/node_modules/@cucumber/cucumber/src/time.ts:63:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676318926545' status='pending' stop='1676318926545'>
+            <name>Then I should see "Google" in the page title</name>
+            <title>Then I should see "Google" in the page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676318926545' status='passed' stop='1676318926546'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -6,7 +6,7 @@
     "test": "karma start",
     "dev": "webpack-dev-server --inline --hot",
     "build": "webpack -p",
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "npx wdio run ./wdio.conf.ts"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
     "@wdio/mocha-framework": "^8.3.0",
     "@wdio/spec-reporter": "^8.3.0",
     "chromedriver": "^110.0.0",
+    "generator-cucumber-steps": "^0.1.3",
     "jasmine-core": "^4.5.0",
     "karma": "^6.4.1",
     "karma-chrome-launcher": "^3.1.1",
